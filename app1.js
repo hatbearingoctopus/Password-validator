@@ -8,3 +8,7 @@ let isValidPassword = function (password) {
   return true
 }
 }
+
+console.log(isValidPassword('asdf')) //false 
+console.log(isValidPassword('abc123!$jsj')) //true
+console.log(isValidPassword('password123')) //false 
